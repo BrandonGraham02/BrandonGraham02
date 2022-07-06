@@ -16,20 +16,20 @@
 
     <a-assets>
         <a-asset-item id = "vase-obj" src = "others/Vase2.obj"></a-asset-item>
-        <a-asset-item id = "vase-mtl" src = "others/Vase2.mtl"></a-asset-item>
+        <!--<a-asset-item id = "vase-mtl" src = "others/Vase2.mtl"></a-asset-item>-->
         <a-asset-item id = "Starfish-obj" src = "others/Starfish.obj"></a-asset-item>
-        <a-asset-item id = "Starfish-mtl" src = "others/Starfish.mtl"></a-asset-item>
+       <!-- <a-asset-item id = "Starfish-mtl" src = "others/Starfish.mtl"></a-asset-item>-->
     </a-assets>
 
     <a-scene embedded arjs>
 
         <a-marker type='pattern' url='others/pattern-download.patt'>
-            <a-obj-model src = "#vase-obj" mtl="#vase-mtl" position = "0 0 0" scale = "0.02 0.02 0.02" rotation = "-90 0 0"></a-obj-model>
+            <a-obj-model src = "#vase-obj" position = "0 0 0" scale = "0.02 0.02 0.02" rotation = "-90 0 0"></a-obj-model>
         </a-marker>
 
 
         <a-marker type='pattern' url='others/pattern-images.patt'>
-            <a-obj-model src = "#Starfish-obj" mtl="#Starfish-mtl" position = "0 0 0" scale = "0.02 0.02 0.02" rotation = "-90 0 0"></a-obj-model>
+            <a-obj-model src = "#Starfish-obj" position = "0 0 0" scale = "0.02 0.02 0.02" rotation = "-90 0 0"></a-obj-model>
         </a-marker>
 
 
